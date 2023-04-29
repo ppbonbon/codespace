@@ -3,14 +3,14 @@
 
 int main(void)
 {
-    char c = ger_cgar("DO you agreee? ");
+    char c = get_char("DO you agreee? ");
 
     if (c == 'y')
     {
         printf("Agreed.\n");
     }
-    else if (c == 'n');
+    else if (c == 'n')
     {
-        printf("Not agreed.");
+        printf("Not agreed.\n");
     }
 }
